@@ -1,0 +1,29 @@
+:root{--ink:#111;--y:#ffe14d;--p:#ff5ca8;--c:#3ad6ff;--g:#7dff6b;--o:#ff9a3c}
+*{box-sizing:border-box}
+body{margin:0;font-family:"Comic Neue",cursive;color:var(--ink);background-color:var(--y);background-image:radial-gradient(rgba(0,0,0,.18) 1.2px,transparent 1.3px);background-size:12px 12px;line-height:1.45}
+a{color:inherit}
+header{background:var(--p);border-bottom:5px solid var(--ink);padding:14px 16px;text-align:center;box-shadow:0 6px 0 var(--ink)}
+h1,h2,h3{font-family:Bangers,cursive;letter-spacing:1.5px;margin:0}
+h1{font-size:clamp(2rem,6vw,3.4rem);color:#fff;-webkit-text-stroke:2px var(--ink);text-shadow:4px 4px 0 var(--ink)}
+h1 a{text-decoration:none}
+nav{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-top:10px}
+nav a{font-family:Bangers;font-size:1.3rem;text-decoration:none;background:#fff;border:3px solid var(--ink);border-radius:12px;padding:4px 14px;box-shadow:3px 3px 0 var(--ink);transition:transform .1s}
+nav a:hover,nav a.on{background:var(--c);transform:rotate(-2deg) scale(1.05)}
+main{max-width:900px;margin:28px auto;padding:0 14px}
+.hero{background:#fff;border:5px solid var(--ink);border-radius:18px;padding:18px;box-shadow:8px 8px 0 var(--ink);text-align:center;margin-bottom:26px}
+.hero h2{font-size:clamp(1.8rem,5vw,2.8rem);color:var(--o);-webkit-text-stroke:1.5px var(--ink)}
+.sub{font-weight:700;margin:6px 0}
+.mascot{display:inline-block;background:var(--g);border:3px solid var(--ink);border-radius:30px;padding:6px 16px;font-size:1.15rem;transform:rotate(-1.5deg);box-shadow:3px 3px 0 var(--ink)}
+.comic{display:block;width:100%;margin-top:14px;border:5px solid var(--ink);border-radius:10px}
+.cards{display:grid;gap:18px}
+.card{display:flex;gap:14px;align-items:flex-start;border:4px solid var(--ink);border-radius:16px;padding:14px 16px;box-shadow:6px 6px 0 var(--ink);transition:transform .12s}
+.card:nth-child(4n+1){background:#fff}.card:nth-child(4n+2){background:var(--c)}.card:nth-child(4n+3){background:#ffd1e8}.card:nth-child(4n){background:#d4ffcc}
+.card:hover{transform:translate(-2px,-2px) rotate(-.5deg)}
+.emo{font-size:2.4rem;line-height:1;flex:none}
+.card h3{font-size:1.6rem}
+.card h3 a{text-decoration:none}.card h3 a:hover{text-decoration:underline wavy}
+.quip{margin:6px 0;font-size:1.08rem;font-weight:700}
+.meta{margin:0;font-size:.95rem;opacity:.8}
+.empty{font-family:Bangers;font-size:1.6rem;text-align:center}
+footer{text-align:center;padding:24px 12px;font-weight:700}
+@media(max-width:560px){.card{flex-direction:column}.emo{font-size:2rem}.hero{padding:12px}}
