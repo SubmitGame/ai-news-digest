@@ -13,7 +13,7 @@ def tldr(xs): return "📰 **TL;DR:** "+" · ".join(i["title"] for i in xs[:3])+
 def win(days,top):
   lo=td-dt.timedelta(days=days-1)
   return srt([i for i in items if lo<=dt.date.fromisoformat(i["published_at"][:10])<=td])[:top]
-t=srt([i for i in items if i["discovered_at"][:10]==today])
+t=srt([i for i in items if i["discovered_at"][:10]==today])[:15]
 day=td.strftime("%a"); mascot=M[day]
 comic=sorted(glob.glob(os.path.join(R,"comics",f"{today}-*.jpg")))
 out=[f"# 🤖 AI News Digest\n\nDaily AI news from [4PDA's AI forum](https://4pda.to/forum/index.php?showforum=1240), curated with r/LocalLLaMA energy 🦾. Updated every day at 9:17 AM (UTC+7).\n\n📅 **{today}** · Mascot of the day: **{mascot}**\n\nSee also: [🗓️ Top of the week](weekly.md) · [📆 Top of the month](monthly.md)\n"]
