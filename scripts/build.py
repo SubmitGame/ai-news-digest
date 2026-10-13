@@ -22,4 +22,6 @@ out+= [tldr(t),"",lst(t),""]
 open(os.path.join(R,"README.md"),"w",encoding="utf-8").write("\n".join(out))
 for fn,days,top,h in [("weekly.md",7,10,"🗓️ Top of the week"),("monthly.md",30,20,"📆 Top of the month")]:
   x=win(days,top)
-  open(os.path.join(R,fn),"w",encoding="utf-8").write(f"# {h}\n\nLast {days} days up to {today} (by publication date). [⬅️ Today](README.md)\n\n{tldr(x)}\n\n{lst(x)}\n")
+  c=sorted(glob.glob(os.path.join(R,"comics",fn.split(".")[0]+"-*.jpg")))
+  img=f"![{h}](comics/{os.path.basename(c[-1])})\n\n" if c else ""
+  open(os.path.join(R,fn),"w",encoding="utf-8").write(f"# {h}\n\nLast {days} days up to {today} (by publication date). [⬅️ Today](README.md)\n\n{img}{tldr(x)}\n\n{lst(x)}\n")

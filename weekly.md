@@ -2,6 +2,8 @@
 
 Last 7 days up to 2026-10-13 (by publication date). [⬅️ Today](README.md)
 
+![🗓️ Top of the week](comics/weekly-2026-10-13.jpg)
+
 📰 **TL;DR:** OpenAI publishes 722 AI-written math papers · Google Antigravity agent runs natively on Android · ManimGX: Manim rewritten in Rust, ~90x faster 🔥🤯
 
 1. **[OpenAI publishes 722 AI-written math papers](https://4pda.to/forum/index.php?showtopic=1111449&st=1640)** 🧮 Cool, but it's an unreleased internal model 🔒. Wake me up when the proofs are verified 😴
