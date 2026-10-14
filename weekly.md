@@ -1,14 +1,14 @@
 # 🗓️ Top of the week
 
-Last 7 days up to 2026-10-13 (by publication date). [⬅️ Today](README.md)
+Last 7 days up to 2026-10-14 (by publication date). [⬅️ Today](README.md)
 
-![🗓️ Top of the week](comics/weekly-2026-10-13.jpg)
+![🗓️ Top of the week](comics/weekly-2026-10-14.jpg)
 
-📰 **TL;DR:** OmGithub: discover and play open-source AI projects instantly · OpenAI publishes 722 AI-written math papers · Google Antigravity agent runs natively on Android 🔥🤯
+📰 **TL;DR:** OmGithub: discover and play open-source AI projects instantly · Google Antigravity agent runs natively on Android · Cat Jam Free: stealth coding model on OpenCode Zen 🔥🤯
 
 1. **[OmGithub: discover and play open-source AI projects instantly](https://omgithub.com)** 🚀 Every open-source AI project, playable in one click. No git clone, no npm install, just vibes. This is the way 🫡
-2. **[OpenAI publishes 722 AI-written math papers](https://4pda.to/forum/index.php?showtopic=1111449&st=1640)** 🧮 Cool, but it's an unreleased internal model 🔒. Wake me up when the proofs are verified 😴
-3. **[Google Antigravity agent runs natively on Android](https://4pda.to/forum/index.php?showtopic=1111449&st=1640)** 📱 No PRoot, no QEMU. Absolute madlad 🤠
+2. **[Google Antigravity agent runs natively on Android](https://4pda.to/forum/index.php?showtopic=1111449&st=1640)** 📱 No PRoot, no QEMU. Absolute madlad 🤠
+3. **[Cat Jam Free: stealth coding model on OpenCode Zen](https://4pda.to/forum/index.php?showtopic=1077922&view=findpost&p=145501804)** 🐱🎸 Free 262K coding stealth model just dropped on OpenCode Zen. Dev won't say who cooked it, rumor mill says Xiaomi MiMo — benchmarks or it didn't happen 👀
 4. **[Hermes Agent v0.21.6 'Pantheon' stable](https://4pda.to/forum/index.php?showtopic=1123739)** 🏛️ Nous keeps shipping 🫡
 5. **[ManimGX: Manim rewritten in Rust, ~90x faster](https://4pda.to/forum/index.php?showtopic=1111449&st=1640)** 🦀 Rewrite it in Rust, get 90x. The crab gods are pleased 🙏
 6. **[Custom XiaoZhi ESP32-S3 firmware turns a ~390 RUB board into an Alexa](https://4pda.to/forum/index.php?showtopic=1117943&st=420)** 🔌 A ~390-ruble Alexa killer. Hardware hacking is so back 😎
