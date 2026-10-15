@@ -1,6 +1,17 @@
 #!/usr/bin/env python3
 """Set image/image_caption/image_bubble on news.jsonl items whose card image exists (per cards/manifest.jsonl)."""
 import json, os
+def square(fp,S=1024):
+  """Pad non-square cards onto a blurred square background so the headline is never cropped."""
+  try:
+    from PIL import Image, ImageFilter
+  except ImportError: return
+  im=Image.open(fp).convert("RGB"); w,h=im.size
+  if w==h: return
+  bg=im.resize((S,S)).filter(ImageFilter.GaussianBlur(28))
+  if w>h: fg=im.resize((S,int(h*S/w))); bg.paste(fg,(0,(S-fg.size[1])//2))
+  else: fg=im.resize((int(w*S/h),S)); bg.paste(fg,((S-fg.size[0])//2,0))
+  bg.save(fp,quality=85)
 R=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 man={}
 mp=os.path.join(R,"cards","manifest.jsonl")
@@ -13,7 +24,7 @@ for l in open(p,encoding="utf-8"):
   if not l.strip(): continue
   i=json.loads(l); m=man.get(i["id"],{}); f=m.get("file") or i.get("image")
   if f and os.path.exists(os.path.join(R,f)):
-    i["image"]=f; n+=1
+    square(os.path.join(R,f)); i["image"]=f; n+=1
     if m.get("headline"):
       i["image_caption"]=m["headline"]; i["image_bubble"]=m["bubble"]
   else:
