@@ -31,10 +31,10 @@ footer{text-align:center;padding:24px 12px;font-weight:700}
 .modes button{font-family:Bangers;font-size:1.2rem;letter-spacing:1px;background:#fff;border:0;padding:4px 12px;cursor:pointer;color:var(--ink)}
 .modes button+button{border-left:3px solid var(--ink)}
 .mode-comic .modes .m-comic,.mode-text .modes .m-text{background:var(--g)}
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:18px}
-.tile{display:block;aspect-ratio:1/1;border:4px solid var(--ink);border-radius:14px;overflow:hidden;box-shadow:6px 6px 0 var(--ink);background:#fff;transition:transform .12s}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(440px,1fr));gap:18px}
+.tile{display:block;aspect-ratio:16/9;border:4px solid var(--ink);border-radius:14px;overflow:hidden;box-shadow:6px 6px 0 var(--ink);background:#fff;transition:transform .12s}
 .tile:hover{transform:translate(-2px,-2px) rotate(-.6deg)}
 .tile img{display:block;width:100%;height:100%;object-fit:cover}
 .grid .card.wide{grid-column:1/-1}
 .mode-text .comic-only,.mode-comic .text-only{display:none}
-@media(max-width:560px){.grid{grid-template-columns:1fr 1fr;gap:10px}.tile{border-width:3px;box-shadow:3px 3px 0 var(--ink)}}
+@media(max-width:560px){.grid{grid-template-columns:1fr;gap:10px}.tile{border-width:3px;box-shadow:3px 3px 0 var(--ink)}}

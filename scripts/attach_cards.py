@@ -24,7 +24,7 @@ for l in open(p,encoding="utf-8"):
   if not l.strip(): continue
   i=json.loads(l); m=man.get(i["id"],{}); f=m.get("file") or i.get("image")
   if f and os.path.exists(os.path.join(R,f)):
-    square(os.path.join(R,f)); i["image"]=f; n+=1
+    i["image"]=f; n+=1
     if m.get("headline"):
       i["image_caption"]=m["headline"]; i["image_bubble"]=m["bubble"]
   else:

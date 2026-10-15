@@ -44,7 +44,7 @@ def has_img(i): return bool(i.get("image")) and os.path.exists(os.path.join(R,i[
 def tile(i,pre):
   if not has_img(i): return card(i).replace('class="card"','class="card wide"',1)
   alt=(i["title"]+" — "+i.get("quip","")).strip(" —")
-  return f'<a class="tile" href="{E(i["url"])}" target="_blank" rel="noopener"><img src="{pre}{E(i["image"])}" alt="{E(alt)}" title="{E(i["title"])}" loading="lazy" width="1024" height="1024"></a>'
+  return f'<a class="tile" href="{E(i["url"])}" target="_blank" rel="noopener"><img src="{pre}{E(i["image"])}" alt="{E(alt)}" title="{E(i["title"])}" loading="lazy" width="1280" height="720"></a>'
 MODEJS="""<script>(function(){var q=new URLSearchParams(location.search).get('mode'),m=(q==='text'||q==='comic')?q:null;try{if(m)localStorage.setItem('mode',m);else m=localStorage.getItem('mode')}catch(e){}if(m!=='text')m='comic';document.documentElement.className='mode-'+m;window.setMode=function(x){try{localStorage.setItem('mode',x)}catch(e){}document.documentElement.className='mode-'+x;var u=new URL(location.href);if(u.searchParams.has('mode')){u.searchParams.set('mode',x);history.replaceState(null,'',u)}};})();</script>"""
 def page(path,title,sub,img,xs,mascot_txt,pre):
   nav="".join(f'<a href="{pre}{h}"{" class=on" if title.startswith(n) else ""}>{l}</a>' for n,h,l in [("Today","index.html","⚡ Today"),("Week","weekly.html","🗓️ Week"),("Month","monthly.html","📆 Month"),("Archive","archive/index.html","📚 Archive")])
