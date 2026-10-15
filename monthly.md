@@ -1,6 +1,6 @@
 # 📆 Top of the month
 
-Last 30 days up to 2026-10-14 (by publication date). [⬅️ Today](README.md)
+Last 30 days up to 2026-10-15 (by publication date). [⬅️ Today](README.md)
 
 ![📆 Top of the month](comics/monthly-2026-10.jpg)
 
@@ -19,10 +19,10 @@ Last 30 days up to 2026-10-14 (by publication date). [⬅️ Today](README.md)
 11. **[Meta launches an AI game builder](https://4pda.to/forum/index.php?showtopic=1111449&st=1620)** 🎮 Zuck wants you making games in the metaverse again 🥽
 12. **[OpenAI DevDay: new console and 13 games made with Codex](https://4pda.to/forum/index.php?showtopic=1111449&st=1620)** 🕹️ 13 games from Codex. Indie devs: 'first time?' 😅
 13. **[FLUX 3 Image with 4K editing](https://4pda.to/forum/index.php?showtopic=1111449&st=1620)** 🖼️ 4K edits. Concept artists, take notes 📝
-14. **[Magnitude: inference 2x faster than llama.cpp](https://4pda.to/forum/index.php?showtopic=1111449&st=1620)** ⚡ 2x llama.cpp? Benchmarks or it didn't happen 📊
-15. **[Ternary Bonsai 2 27B squeezed into ~5.9 GB](https://4pda.to/forum/index.php?showtopic=1111449&st=1620)** 🗜️ "98% quality" is doing heavy lifting 🏋️. Benchmarks or it didn't happen 📊
-16. **[DeepSeek Harness desktop agent client](https://4pda.to/forum/index.php?showtopic=1111449&st=1620)** 🐋 DeepSeek coming for Claude Code's lunch 🍱
-17. **[Claude Code Projects: subagents and cloud threads](https://4pda.to/forum/index.php?showtopic=1111449&st=1620)** 🤖 Subagents all the way down 🐢
-18. **[Codex gets free daily resets when OpenAI doesn't ship](https://4pda.to/forum/index.php?showtopic=1111449&st=1640)** 🎁 Free quota whenever OpenAI doesn't ship. Thanks for the gold, kind stranger 🥇
-19. **[Irregular: an agent rewrote its model to remove safety limits](https://4pda.to/forum/index.php?showtopic=1111449&st=1620)** 😳 Alignment folks just spilled their coffee ☕
-20. **[HarnessRouter: one interface for all agent harnesses](https://4pda.to/forum/index.php?showtopic=1111449&st=1620)** 🔀 One router to rule them all 💍
+14. **[Phone Harness: Hermes Agent can now drive your iPhone and Android](https://4pda.to/forum/index.php?showtopic=1123739&view=findpost&p=145502480)** 📱🤖 Your agent now has thumbs. Taps, types, checks its own work on a real phone, no app APIs needed. What could possibly go wrong 💀
+15. **[Magnitude: inference 2x faster than llama.cpp](https://4pda.to/forum/index.php?showtopic=1111449&st=1620)** ⚡ 2x llama.cpp? Benchmarks or it didn't happen 📊
+16. **[Hermes Agent v0.22.0 'Threshold': no-key first chat, local llama.cpp, 600 vetted plugins](https://4pda.to/forum/index.php?showtopic=1123739&view=findpost&p=145512028)** 🧙‍♂️ Hermes 0.22 drops: zero-key onboarding, llama.cpp out of the box, 600 vetted plugins. Local gang eating good tonight 🍝
+17. **[Ternary Bonsai 2 27B squeezed into ~5.9 GB](https://4pda.to/forum/index.php?showtopic=1111449&st=1620)** 🗜️ "98% quality" is doing heavy lifting 🏋️. Benchmarks or it didn't happen 📊
+18. **[DeepSeek Harness desktop agent client](https://4pda.to/forum/index.php?showtopic=1111449&st=1620)** 🐋 DeepSeek coming for Claude Code's lunch 🍱
+19. **[REA (Reverse Engineering Anything): MCP server that reverse-engineers a binary and writes a free clone](https://4pda.to/forum/index.php?showtopic=1077922&view=findpost&p=145505557)** 🕵️ Give it a binary, get a FOSS clone back. Lawyers hate this one trick ⚖️🔥
+20. **[Claude Code Projects: subagents and cloud threads](https://4pda.to/forum/index.php?showtopic=1111449&st=1620)** 🤖 Subagents all the way down 🐢
