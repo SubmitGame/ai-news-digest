@@ -6,6 +6,8 @@ Daily AI news from [4PDA's AI forum](https://4pda.to/forum/index.php?showforum=1
 
 See also: [🗓️ Top of the week](weekly.md) · [📆 Top of the month](monthly.md)
 
+![Today's comic](comics/2026-10-15-thu.jpg)
+
 📰 **TL;DR:** Phone Harness: Hermes Agent can now drive your iPhone and Android · Hermes Agent v0.22.0 'Threshold': no-key first chat, local llama.cpp, 600 vetted plugins · REA (Reverse Engineering Anything): MCP server that reverse-engineers a binary and writes a free clone 🔥🤯
 
 1. **[Phone Harness: Hermes Agent can now drive your iPhone and Android](https://4pda.to/forum/index.php?showtopic=1123739&view=findpost&p=145502480)** 📱🤖 Your agent now has thumbs. Taps, types, checks its own work on a real phone, no app APIs needed. What could possibly go wrong 💀

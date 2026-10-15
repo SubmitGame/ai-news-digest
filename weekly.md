@@ -2,7 +2,7 @@
 
 Last 7 days up to 2026-10-15 (by publication date). [⬅️ Today](README.md)
 
-![🗓️ Top of the week](comics/weekly-2026-10-14.jpg)
+![🗓️ Top of the week](comics/weekly-2026-10-15.jpg)
 
 📰 **TL;DR:** OmGithub: discover and play open-source AI projects instantly · Google Antigravity agent runs natively on Android · Cat Jam Free: stealth coding model on OpenCode Zen 🔥🤯
 
