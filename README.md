@@ -2,18 +2,16 @@
 
 Daily AI news from [4PDA's AI forum](https://4pda.to/forum/index.php?showforum=1240), curated with r/LocalLLaMA energy 🦾. Updated every day at 9:17 AM (UTC+7).
 
-📅 **2026-10-15** · Mascot of the day: **Thunder the Hamster ⚡🐹**
+📅 **2026-10-16** · Mascot of the day: **Fry the Party Penguin 🐧🎉**
 
 See also: [🗓️ Top of the week](weekly.md) · [📆 Top of the month](monthly.md)
 
-![Today's comic](comics/2026-10-15-thu.jpg)
+![Today's comic](comics/2026-10-16-fri.jpg)
 
-📰 **TL;DR:** Phone Harness: Hermes Agent can now drive your iPhone and Android · Hermes Agent v0.22.0 'Threshold': no-key first chat, local llama.cpp, 600 vetted plugins · REA (Reverse Engineering Anything): MCP server that reverse-engineers a binary and writes a free clone 🔥🤯
+📰 **TL;DR:** FLUX 3 Image Klein: 5.6B open weights for text-to-image, editing, and layout boxes · OpenCode makes DeepSeek V4.1 Flash free (limited time, ~200K context on Zen) · PS5LM Plus: Qwen 3.8 27B at ~20 tok/s on a jailbroken PS5's GPU 🔥🤯
 
-1. <img src="cards/4pda-1123739-330.jpg" width="80" alt=""> **[Phone Harness: Hermes Agent can now drive your iPhone and Android](https://4pda.to/forum/index.php?showtopic=1123739&view=findpost&p=145502480)** 📱🤖 Your agent now has thumbs. Taps, types, checks its own work on a real phone, no app APIs needed. What could possibly go wrong 💀
-2. <img src="cards/4pda-1123739-333.jpg" width="80" alt=""> **[Hermes Agent v0.22.0 'Threshold': no-key first chat, local llama.cpp, 600 vetted plugins](https://4pda.to/forum/index.php?showtopic=1123739&view=findpost&p=145512028)** 🧙‍♂️ Hermes 0.22 drops: zero-key onboarding, llama.cpp out of the box, 600 vetted plugins. Local gang eating good tonight 🍝
-3. <img src="cards/4pda-1077922-25586.jpg" width="80" alt=""> **[REA (Reverse Engineering Anything): MCP server that reverse-engineers a binary and writes a free clone](https://4pda.to/forum/index.php?showtopic=1077922&view=findpost&p=145505557)** 🕵️ Give it a binary, get a FOSS clone back. Lawyers hate this one trick ⚖️🔥
-4. <img src="cards/4pda-1077922-25610.jpg" width="80" alt=""> **[Gemini 4 Argon rolls out to the Gemini app and pops up in Google Search, but eats quota fast](https://4pda.to/forum/index.php?showtopic=1077922&view=findpost&p=145513683)** 🧪 Argon is here. Smart, chatty, and two prompts nuke 20% of your Pro limit. Thinking tokens go brrr 💸
-5. <img src="cards/4pda-1110815-5182.jpg" width="80" alt=""> **[Fish Audio's 'ElevenLabs killer' TTS: ~40 GB weights, ~20 GB GGUF, great Russian](https://4pda.to/forum/index.php?showtopic=1110815&view=findpost&p=145513596)** 🎙️ 'ElevenLabs killer' that actually nails emotion tags. Bring a 3090 and some patience, local voice bros 🔊
-6. <img src="cards/4pda-1110815-5181.jpg" width="80" alt=""> **[Qwen3-TTS 1.7B for Russian with stress marks, plus a portable build](https://4pda.to/forum/index.php?showtopic=1110815&view=findpost&p=145511580)** 🗣️ Finally a TTS that knows where the stress goes. Small fix, big vibe ✨
-7. <img src="cards/4pda-1112313-290.jpg" width="80" alt=""> **[Latest ComfyUI update breaks Impact Pack workflows; roll back to 0.39.0](https://4pda.to/forum/index.php?showtopic=1112313&view=findpost&p=145514868)** 🧯 ComfyUI update ate your Impact Pack workflows? Pin 0.39.0, reinstall reqs. Never update on a Friday 🙃
+1. <img src="cards/4pda-1112313-292.jpg" width="80" alt=""> **[FLUX 3 Image Klein: 5.6B open weights for text-to-image, editing, and layout boxes](https://4pda.to/forum/index.php?showtopic=1112313&view=findpost&p=145531159)** 🎨 Finally, FLUX 3 you can actually download. 5.6B, open weights, layout boxes — localbros rejoice 🔥
+2. <img src="cards/4pda-1077922-25621.jpg" width="80" alt=""> **[OpenCode makes DeepSeek V4.1 Flash free (limited time, ~200K context on Zen)](https://4pda.to/forum/index.php?showtopic=1077922&view=findpost&p=145520261)** 💸 DeepSeek V4.1 Flash went freemium on OpenCode. Grab it before the "limited time" ends 🏃‍♂️
+3. <img src="cards/4pda-1077922-25617.jpg" width="80" alt=""> **[PS5LM Plus: Qwen 3.8 27B at ~20 tok/s on a jailbroken PS5's GPU](https://4pda.to/forum/index.php?showtopic=1077922&view=findpost&p=145518615)** 🎮 Your PS5 just became a 27B inference box. Jailbreak tax applies 💀
+4. <img src="cards/4pda-1077922-25618.jpg" width="80" alt=""> **[Vecta v0.1.0: open-source Mac app turns PLAUD recorders into fully local AI](https://4pda.to/forum/index.php?showtopic=1077922&view=findpost&p=145518729)** 🎙️ PLAUD without the 300-minute tax. Mac does the AI, recorder just records ✨
+5. <img src="cards/4pda-1112313-291.jpg" width="80" alt=""> **[Krea 3 Image Edit goes live on Civitai (hosted, launch-week Buzz discount)](https://4pda.to/forum/index.php?showtopic=1112313&st=280)** 🖌️ Sentence-edit your pics on Civitai. Hosted only — weights stay behind the curtain 🚪
